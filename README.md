@@ -1,8 +1,7 @@
 # Boostcourse
 이 저장소의 모든 내용은 edwith의 부스트코스를 수강한 후 정리한 내용입니다.  
 [edwith 바로가기](https://www.edwith.org/)  
-  
------
+
   
 ## :closed_book: Web Programming
 ### 1. 웹 프로그래밍 기초 :heavy_check_mark:
@@ -21,8 +20,7 @@
 ### 3. 웹 앱 개발:예약서비스 3/4
 
 ### 3. 웹 앱 개발:예약서비스 4/4
-  
------
+
   
 ## :orange_book: Web UI Development
 ### 1. HTML&CSS 기초

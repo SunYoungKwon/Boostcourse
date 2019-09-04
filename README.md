@@ -4,10 +4,10 @@
   
 -----
   
-## Web Programming
-### 1. 웹 프로그래밍 기초 (수강완료)
-  - BE_PJT 1-1. 나를 소개하는 홈페이지 만들기 (PASS)
-  - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 (PASS)
+## :closed_book: Web Programming
+### 1. 웹 프로그래밍 기초 :heavy_check_mark:
+  - BE_PJT 1-1. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
+  - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
   
 ### 2. DB연결 웹 앱
   - 내용정리
@@ -24,9 +24,9 @@
   
 -----
   
-## Web UI Development
+## :orange_book: Web UI Development
 ### 1. HTML&CSS 기초
-  - PJT A-1. 포트폴리오 웹페이지 - 레이아웃 만들기 (PASS)
+  - PJT A-1. 포트폴리오 웹페이지 - 레이아웃 만들기 :heavy_check_mark:
   - PJT A-2. 포트폴리오 웹페이지 - 구성 요소 만들기
   
 ### 2. 웹 접근성의 이해

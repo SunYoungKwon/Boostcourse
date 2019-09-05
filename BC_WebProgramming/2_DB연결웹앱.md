@@ -94,8 +94,8 @@ var getName = (name) => "Kim" + name;
 
 ## 2. WEB UI 개발 - FE
 ### window객체
-전역객체이며 생략가능하다
-### 비동기처리, 콜백함수
+전역객체이며 생략가능
+### 비동기처리 & 콜백함수
 특정 코드의 연산이 끝날 때 까지 코드의 실행을 멈추지 않고 다음 코드를 먼저 실행
 스택이 비워진 후 실행
 ```
@@ -109,6 +109,7 @@ console.log('3');
 - DOM Tree: DOM형식으로 저장된 정보
 - document: HTML의 최상위 객체
 - querySelector: CSS selector를 이용하여 element를 찾음
+<<<<<<< HEAD
 
 HTML은 Tree형태로 저장됨
 ```
@@ -117,6 +118,15 @@ document.querySelector("div");      // HTML문서의 첫번째 <div>
 documrnt.querySelector(".class");   // class값이 "class"인 element
 document.querySelectorAll("div");   // 문서내 모든 <div>
 ```
+=======
+- HTML은 Tree형태로 저장됨
+  ```
+  document.getElementById("id");      // id값이 "id"인 element
+  document.querySelector("div");      // HTML문서의 첫번째 <div>
+  documrnt.querySelector(".class");   // class값이 "class"인 element
+  document.querySelectorAll("div");   // 문서내 모든 <div>
+  ```
+>>>>>>> f0ffac1e1133c73862c5e88fe891eb6a4cee2511
 ### Event
 ```
 var element = document.getElementById("id");        // element선택

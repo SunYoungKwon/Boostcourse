@@ -5,6 +5,7 @@
   
 ## :closed_book: Web Programming
 ### 1. 웹 프로그래밍 기초 :heavy_check_mark:
+  - [(참고) Java Naming](https://google.github.io/styleguide/javaguide.html#s5-naming)
   - BE_PJT 1-1. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
   - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
   

@@ -109,7 +109,6 @@ console.log('3');
 - DOM Tree: DOM형식으로 저장된 정보
 - document: HTML의 최상위 객체
 - querySelector: CSS selector를 이용하여 element를 찾음
-<<<<<<< HEAD
 
 HTML은 Tree형태로 저장됨
 ```
@@ -118,15 +117,6 @@ document.querySelector("div");      // HTML문서의 첫번째 <div>
 documrnt.querySelector(".class");   // class값이 "class"인 element
 document.querySelectorAll("div");   // 문서내 모든 <div>
 ```
-=======
-- HTML은 Tree형태로 저장됨
-  ```
-  document.getElementById("id");      // id값이 "id"인 element
-  document.querySelector("div");      // HTML문서의 첫번째 <div>
-  documrnt.querySelector(".class");   // class값이 "class"인 element
-  document.querySelectorAll("div");   // 문서내 모든 <div>
-  ```
->>>>>>> f0ffac1e1133c73862c5e88fe891eb6a4cee2511
 ### Event
 ```
 var element = document.getElementById("id");        // element선택

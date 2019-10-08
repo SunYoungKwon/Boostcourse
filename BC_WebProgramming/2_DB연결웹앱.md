@@ -171,7 +171,7 @@ Java
 */
 ```
 ### 내장객체(Implicit Object)
-(JSP 내장객체 종류)[https://www.javatpoint.com/jsp-implicit-objects]
+[JSP 내장객체 종류](https://www.javatpoint.com/jsp-implicit-objects)
 ## 4. redirect & forward - BE
 
 ## 5. scope - BE

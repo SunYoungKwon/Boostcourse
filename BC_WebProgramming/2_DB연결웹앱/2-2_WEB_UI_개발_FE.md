@@ -45,3 +45,6 @@ function ajaxTest() {
 }
 ```
   [XMLHttpRequest() 참고](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)  
+
+-----
+[>>> 3. JSP - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-3_JSP-BE.md)

@@ -35,5 +35,6 @@ Java
 ### 내장객체(Implicit Object)
 [JSP 내장객체 종류](https://www.javatpoint.com/jsp-implicit-objects)
 
+
 -----
 [>>> 4. redirect&forward - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-4_redirect_and_forward-BE.md)

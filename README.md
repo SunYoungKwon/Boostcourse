@@ -18,6 +18,11 @@
   4. [redirect&forward - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-4_redirect_and_forward-BE.md)
   5. [scope - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-5_scope-BE.md)
   6. [JSTL & EL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-6_JSTL_and_EL-BE.md)
+  7. [MySQL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-7_MySQL-BE.md)
+  8. [SQL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-8_SQL-BE.md)
+  9. [Maven - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-9_Maven-BE.md)
+  10. [JDBC - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-10_JDBC-BE.md)
+  11. [WEB API - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-11_WEB_API-BE.md)
 #### 프로젝트
   - BE_PJT 2-1. TO-DO LIST 구현하기
   - FE_PJT 2-2. TO-DO LIST 구현하기
@@ -33,6 +38,7 @@
 
 ## :orange_book: Web UI Development
 ### 1. HTML&CSS 기초
+#### 프로젝트
   - PJT A-1. 포트폴리오 웹페이지 - 레이아웃 만들기 :heavy_check_mark:
   - PJT A-2. 포트폴리오 웹페이지 - 구성 요소 만들기
 

@@ -15,7 +15,7 @@
   1. [Javascript - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-1_JavaScript-FE.md)
   2. [WEB UI 개발 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-2_WEB_UI_%EA%B0%9C%EB%B0%9C_FE.md)
   3. [JSP - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-3_JSP-BE.md)
-  4. [redirect&forward - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-4_redirect_and_forward-BE.md)
+  4. [redirect & forward - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-4_redirect_and_forward-BE.md)
   5. [scope - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-5_scope-BE.md)
   6. [JSTL & EL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-6_JSTL_and_EL-BE.md)
   7. [MySQL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-7_MySQL-BE.md)

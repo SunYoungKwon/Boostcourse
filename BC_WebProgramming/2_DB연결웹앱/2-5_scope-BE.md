@@ -1,12 +1,12 @@
 # 웹 프로그래밍 - 2. DB 연결 웹 앱
 
 ## 5. scope - BE
-#### scope의 종류
+### scope의 종류
 1. Application : 어플리케이션이 만들어져서 소멸될 때 까지
 2. Session : 세션이 만들어져서 소멸될 때까지(상태유지)
 3. Request : 클라이언트가 요청을 보내고 서버가 응답할 때까지
 4. Page : 선언된 페이지 내에서만 사용가능
-#### Page Scope
+### Page Scope
 - PageContext 추상클래스 이용
 - jsp는 pageContext라는 내장객체가 존재함
 - forward 불가
@@ -15,7 +15,7 @@
 pageContext.setAttribute("name", value);
 pageContext.getAttribute("name");
 ```
-#### Request Scope
+### Request Scope
 - HttpServletRequest 객체를 이용
 - JSP에서는 request 내장 객체를 이용
 - forward시 값을 유지시키는 데 사용
@@ -23,7 +23,7 @@ pageContext.getAttribute("name");
 request.setAttribute("name", value);
 request.getAttribute("name");
 ```
-#### Session Scope
+### Session Scope
 - 웹 브라우저(클라이언트) 별로 변수를 관리하고자 할 때 이용
 - HttpSession 인터페이스를 구현한 객체를 이용
 - JSP에서는 session 내장 객체를 이용
@@ -34,7 +34,7 @@ request.getAttribute("name");
 session.setAttribute("name", value);
 session.getAttribute("name");
 ```
-#### Application Scope
+### Application Scope
 - ServletContext 인터페이스를 구현한 객체를 이용
 - JSP에서는 application 내장 객체를 이용
 - 어플리케이션 당 하나 객체를 가짐

@@ -17,6 +17,7 @@
   3. [JSP - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-3_JSP-BE.md)
   4. [redirect&forward - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-4_redirect_and_forward-BE.md)
   5. [scope - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-5_scope-BE.md)
+  6. [JSTL & EL - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-6_JSTL_and_EL-BE.md)
 #### 프로젝트
   - BE_PJT 2-1. TO-DO LIST 구현하기
   - FE_PJT 2-2. TO-DO LIST 구현하기

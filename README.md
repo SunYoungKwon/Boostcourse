@@ -28,6 +28,21 @@
   - FE_PJT 2-2. TO-DO LIST 구현하기
 
 ### 3. 웹 앱 개발:예약서비스 1/4
+#### 내용정리
+  1. JavaScript - FE
+  2. DOM API활용 - FE
+  3. Ajax - FE
+  4. Web Animation - FE
+  5. WEB UI - FE
+  6. Tab UI 실습 - FE
+  7. Spring Core - BE
+  8. Spring JDBC - BE
+  9. Spring MVC - BE
+  10. 레이어드 아키텍처(Layered Architecture) - BE
+  11. Controller - BE
+#### 프로젝트
+  - BE_PJT 3-1. 예약: 메인페이지
+  - FE_PJT 3-2. 예약: 메인페이지
 
 ### 3. 웹 앱 개발:예약서비스 2/4
 

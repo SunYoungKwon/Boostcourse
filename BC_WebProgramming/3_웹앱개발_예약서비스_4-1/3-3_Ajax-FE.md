@@ -49,5 +49,5 @@ $.getJSON(url + "?callback=?", data, callback);
 
 
 ---
-[<<< DOM API활용 - FE](#)
+[<<< DOM API활용 - FE](#)  
 [>>> Web Animation - FE](#)

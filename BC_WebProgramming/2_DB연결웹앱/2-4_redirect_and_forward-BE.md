@@ -50,5 +50,5 @@ ${result}
 ```
 
 
------
-[>>> 5. scope - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-5_scope-BE.md)
+---
+[HOME](https://github.com/tunaep5/Boostcourse/blob/master/README.md)

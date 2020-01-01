@@ -1,6 +1,6 @@
 # 웹 프로그래밍 - 2. DB 연결 웹 앱
 
-## 7. MySQL - BE
+## 8. SQL - BE
 ### SQL(Structured Query Language)
 - DML(Data Manipulation Language)
    + INSERT
@@ -84,9 +84,44 @@ quit;
 - GROUP BY  
 
 #### INSERT
-#### UPDATE
-#### DELETE
+새로운 데이터 삽입
+```
+INSERT INTO TableName (Field1, Field2, ...)
+VALUES (Value of Field1, Value of Field2, ...);
+```
 
+#### UPDATE
+데이터 수정
+```
+UPDATE TableName
+SET Field1 = Value1, Field2 = Value2, ...
+WHERE 조건식;         // 필수는 아니지만 작성하지 않을 시 모든 컬럼이 수정됨
+```
+
+#### DELETE
+데이터 삭제
+```
+DELETE
+FROM TableName
+WHERE 조건식;
+```
+
+### DDL(Data Definition Language)
+#### [MySQL Datatype](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+
+#### CREATE
+```
+CREATE TABLE TableName(
+    FieldName1 DataType [NULL|NOT NULL] [AUTO_INCREMENT] [DEFAULT], 
+    FieldName2 DataType [NULL|NOT NULL] [AUTO_INCREMENT] [DEFAULT],
+    ...,
+    PRIMARY KEY (FieldName)
+);
+```
+
+#### ALTER
+
+#### DROP
 
 
 ---

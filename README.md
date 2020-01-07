@@ -11,6 +11,7 @@
   - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
 
 ### 2. DB연결 웹 앱
+
 #### 내용정리
   1. [Javascript - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-1_JavaScript-FE.md)
   2. [WEB UI 개발 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-2_WEB_UI_%EA%B0%9C%EB%B0%9C_FE.md)
@@ -23,26 +24,31 @@
   9. [Maven - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-9_Maven-BE.md)
   10. [JDBC - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-10_JDBC-BE.md)
   11. [WEB API - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-11_WEB_API-BE.md)
+
 #### 프로젝트
   - BE_PJT 2-1. TO-DO LIST 구현하기
   - FE_PJT 2-2. TO-DO LIST 구현하기
 
+
 ### 3. 웹 앱 개발:예약서비스 1/4
+
 #### 내용정리
-  1. JavaScript - FE
-  2. DOM API활용 - FE
+  1. [JavaScript - FE]((https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-1_JavaScript-FE.md))
+  2. [DOM API활용 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-2_DOM_API-FE.md)
   3. [Ajax - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-3_Ajax-FE.md)
-  4. Web Animation - FE
-  5. WEB UI - FE
-  6. Tab UI 실습 - FE
-  7. Spring Core - BE
-  8. Spring JDBC - BE
-  9. Spring MVC - BE
-  10. 레이어드 아키텍처(Layered Architecture) - BE
-  11. Controller - BE
+  4. [Web Animation - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-4_Web_Animation-FE.md)
+  5. [WEB UI - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-5_Web_UI-FE.md)
+  6. [Tab UI 실습 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-6_Tab_UI-FE.md)
+  7. [Spring Core - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-7_Spring_Core-BE.md)
+  8. [Spring JDBC - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-8_Spring_JDBC-BE.md)
+  9. [Spring MVC - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-9_Spring_MVC-BE.md)
+  10. [레이어드 아키텍처(Layered Architecture) - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-10_Layered_Architecture-BE.md)
+  11. [Controller - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-11_Controller-BE.md)
+
 #### 프로젝트
   - BE_PJT 3-1. 예약: 메인페이지
   - FE_PJT 3-2. 예약: 메인페이지
+
 
 ### 3. 웹 앱 개발:예약서비스 2/4
 

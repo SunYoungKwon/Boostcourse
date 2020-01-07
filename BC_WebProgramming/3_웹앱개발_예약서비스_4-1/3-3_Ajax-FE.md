@@ -48,6 +48,6 @@ $.getJSON(url + "?callback=?", data, callback);
 - [크롬 개발자도구 가이드](https://developers.google.com/web/tools/chrome-devtools/?hl=ko)
 
 
+
 ---
-[<<< DOM API활용 - FE](#)  
-[>>> Web Animation - FE](#)
+[HOME](https://github.com/tunaep5/Boostcourse/blob/master/README.md)

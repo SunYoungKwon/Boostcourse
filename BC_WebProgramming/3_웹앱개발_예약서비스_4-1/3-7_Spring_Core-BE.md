@@ -56,8 +56,19 @@
    + 국제화 처리
    + 어플리케이션 이벤트 처리
 
+### Bean
+- Spring컨테이너가 관리하는 객체
+1. 기본 생성자를 가진다
+2. 필드는 private하게 선언한다
+3. getter, setter 메소드를 가진다. getName(), setName()을 name 프로퍼티(property)라고 한다
 
-
+### Java Config를 이용한 설정
+- annotation은 jdk 5부터 지원
+- @Configuration: 스프링 설정 클래스를 선언
+- @Bean: bean을 정의
+- @ComponentScan: @Controller, @Service, @Repository, @Component이 붙은 클래스를 찾아 컨테이너에 등록
+- @Component: 컴포넌트 스캔의 대상이 되는 어노테이션 중 하나로 주로 유틸, 기타 지원 클래스에 사용
+- @Autowired: 주입 대상이 되는 bean을 컨테이너에 찾아 주입
 
 
 

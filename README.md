@@ -10,7 +10,7 @@
   - BE_PJT 1-1. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
   - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
 
-### 2. DB연결 웹 앱
+### 2. DB연결 웹 앱 :heavy_check_mark:
 
 #### 내용정리
   1. [Javascript - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-1_JavaScript-FE.md)

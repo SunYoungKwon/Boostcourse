@@ -94,6 +94,29 @@
 - trnasform : rotate();
 - opacity
 
+### (참고) [Javascript Arrow Function](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
+- 자신의 this, arguments, super, new.target을 바인딩하지 않음
+- 항상 익명
+- 메소드 함수가 아닌 곳에 적합
+- 생성자로 사용 불가
+
+### (참고) vendor prefix
+```
+<style>
+    .button {
+        background: red;          <!-- gradient 속성을 지원하지 않는 모든 브라우저를 위한 코드 -->
+        background: -webkit-linear-gradient(red, yellow); <!-- 크롬과 사파리 4.0 이상을 위한 코드 -->
+        background: -moz-linear-gradient(red, yellow);    <!-- 파이어폭스 3.6 이상을 위한 코드 -->
+        background: -ms-linear-gradient(red, yellow);     <!-- 익스플로러 10.0 이상을 위한 코드 -->
+        background: -o-linear-gradient(red, yellow);      <!-- 오페라 10.0 이상을 위한 코드 -->
+        background: linear-gradient(red, yellow);         <!-- CSS 표준 문법 코드 -->
+    }
+</style>
+```
+- 주요 웹 브라우저 공급자가 새로운 실험적인 기능을 제공할 깨 이전 버전의 웹 브라우저에 그 사실을 알리기 위해 사용하는 접두사
+- 해당 기능이 포함되지 않은 이전 버전의 웹 브라우저에서 그 기능을 사용할 수 있게 함
+- CSS 표준 문법 코드는 벤더 프리픽스로 작성된 코드가 모두 나오고 난 후에 나와야함
+
 <br>
 
 ---

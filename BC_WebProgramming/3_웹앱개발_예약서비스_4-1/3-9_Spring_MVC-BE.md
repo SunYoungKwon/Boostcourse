@@ -96,6 +96,79 @@
    - org.springframework.web.context.support.RequestHandlerEvent
       + org.springframework.web.context.ApplicationListener를 구현해 이를 빈으로 등록하면 이 이벤트를 받을 수 있고 로깅도 할 수 있음
 
+
+### 실습
+입력받은 두 값의 합을 반환하는 어플리케이션 만들기
+
+#### 프로젝트 생성하기
+   1. Maven Project(maven-archetype-webapp) 생성
+   2. Navigator에서 src > main 아래에 java폴더 생성
+   3. pom.xml의 <plugins>에 jdk1.8 설정, <dependencies>에 사용할 라이브러리 추가
+   4. Update Project
+   5. .settings > org.eclipes.wst.common.project.facet.core.xml에서 jst.web의 버전을 3.1로 변경
+   6. 이클립스 재실행 후 Propertis > Project Facets에서 Dynamic Web Module이 3.1인지 확인
+
+#### DispatcherServlet을 Front Controller로 설정하기
+   - web.xml에 설정
+   - (Servlet3.0 이상) javax.servlet.ServletContainerInitializer 이용
+   - org.springframework.web.WebApplicationInitializer 인터페이스를 구현해 사용
+      ```
+      <servlet>
+   		<servlet-name>mvc</servlet-name>
+   		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+   		<init-param>
+   			<param-name>contextClass</param-name>
+   			<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
+   		</init-param>
+   		<init-param>
+   			<param-name>contextConfigLocation</param-name>
+   			<param-value>kr.or.connect.mvcexam.config.WebMvcContextConfiguration</param-value>
+   		</init-param>
+   		<load-on-startup>1</load-on-startup>
+   	</servlet>
+   	<servlet-mapping>
+   		<servlet-name>mvc</servlet-name>
+   		<url-pattern>/</url-pattern>
+   	</servlet-mapping>
+      ```
+      + 단점: 처음 웹 어플리케이션 구동시간이 오래 걸릴 수 있음
+      + <url-pattern>이 '/'이기 때문에 모든 요청을 받게 됨
+
+#### Spring MVC 설정하기
+   kr.or.connect.webmvc.config.WebMvcContextConfiguration
+   - @Configuration
+      + 자바config파일임을 알림
+   - @EnableWebMvc
+      + 웹에 필요한 빈을 대부분 자동으로 설정해줌
+      + 기본설정 이외의 설정이 필요한 경우 해당 클래스를 상속(WebMvcConfigurerAdapter)받아 메소드를 오버라이딩하여 구현
+      + xml로 설정 시 <mvc:annotation-driven />과 동일
+   - @ComponentScan(basePackages = { "kr.or.connect.mvcexam.controller" })
+      + Controller, Service, Repository, Content 애노테이션이 붙은 클래스를 찾아 스프링 컨테이너가 관리하도록 함
+      + basePackages를 반드시 지정할 것
+
+#### Controller 작성하기
+   - @Controller 애노테이션을 클래스위에 붙임
+   - @RequesrMapping
+      + Http요청과 이를 다루기 위한 Controller의 메소드를 연결하는 애노테이션
+      ```
+      // Http Method와 연결
+      @RequestMapping(value="/users", method=RequestMethod.POST)
+      // Spring 4.3부터 아래 애노테이션 사용 가능
+      @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping
+
+      // Http 특정 헤더와 연결
+      @RequestMapping(method = RequestMethod.GET, headers = "content-type=application/json")
+
+      // Http Parameter와 연결
+      @RequestMapping(method = RequestMethod.GET, params = "type=raw")
+
+      // Content-Type Header와 연결
+      @RequestMapping(method = RequestMethod.GET, consumes = "application/json")
+
+      // Accept Header와 연결
+      @RequestMapping(method = RequestMethod.GET, produces = "application/json")
+      ```
+
 <br>
 
 ---

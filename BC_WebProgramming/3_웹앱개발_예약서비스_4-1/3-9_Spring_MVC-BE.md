@@ -96,6 +96,7 @@
    - org.springframework.web.context.support.RequestHandlerEvent
       + org.springframework.web.context.ApplicationListener를 구현해 이를 빈으로 등록하면 이 이벤트를 받을 수 있고 로깅도 할 수 있음
 
+---
 
 ### 실습
 입력받은 두 값의 합을 반환하는 어플리케이션 만들기
@@ -112,26 +113,7 @@
    - web.xml에 설정
    - (Servlet3.0 이상) javax.servlet.ServletContainerInitializer 이용
    - org.springframework.web.WebApplicationInitializer 인터페이스를 구현해 사용
-      ```
-      <servlet>
-   		<servlet-name>mvc</servlet-name>
-   		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-   		<init-param>
-   			<param-name>contextClass</param-name>
-   			<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
-   		</init-param>
-   		<init-param>
-   			<param-name>contextConfigLocation</param-name>
-   			<param-value>kr.or.connect.mvcexam.config.WebMvcContextConfiguration</param-value>
-   		</init-param>
-   		<load-on-startup>1</load-on-startup>
-   	</servlet>
-   	<servlet-mapping>
-   		<servlet-name>mvc</servlet-name>
-   		<url-pattern>/</url-pattern>
-   	</servlet-mapping>
-      ```
-      + 단점: 처음 웹 어플리케이션 구동시간이 오래 걸릴 수 있음
+      + 단점 : 처음 웹 어플리케이션 구동시간이 오래 걸릴 수 있음
       + <url-pattern>이 '/'이기 때문에 모든 요청을 받게 됨
 
 #### Spring MVC 설정하기

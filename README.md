@@ -50,12 +50,23 @@
   - FE_PJT 3-2. 예약: 메인페이지
 
 
-### 3. 웹 앱 개발:예약서비스 2/4
+### 4. 웹 앱 개발:예약서비스 2/4
+  1. 객체지향 JavaScript구현 - FE
+  2. 라이브러리 활용과 클린코드 - FE
 
-### 3. 웹 앱 개발:예약서비스 3/4
+### 5. 웹 앱 개발:예약서비스 3/4
+  1. UI Component module - FE
+  2. JavaScript Regular expression - FE
+  3. form 데이터 보내기 - FE
+  4. 상태유지기술(Cookie & Session) - BE
+  5. Spring 에서의 Session 사용법 - BE
+  6. 인터셉터 - BE
+  7. 아규먼트 리졸버 - BE
 
-### 3. 웹 앱 개발:예약서비스 4/4
-
+### 6. 웹 앱 개발:예약서비스 4/4
+  1. 파일 업로드 - FE
+  2. 로깅 - BE
+  3. 파일 업로드 & 다운로드 - BE
 
 ## :orange_book: Web UI Development
 ### 1. HTML&CSS 기초

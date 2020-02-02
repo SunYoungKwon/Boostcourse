@@ -30,13 +30,16 @@ Connection객체의 setAutoCommit메소드에 false를 파라미터로 지정 �
 + @EnableTransactionManagement : Spring Java Config에서 트랜잭션을 활성화 할 때 사용
 + Java Config를 사용하면 PlaformTransactionManager 구현체를 모두 찾아서 그 중에 하나를 매핑해 사용
 + 특정 트랜잭션 메니저를 사용하려면 TransactionManagementConfigurer를 Java Config파일에서 구현하고 원하는 특정 트랜잭션 메니저를 리턴하거나 특정 트랜잭션 메니저 객체 생성 시 @Primary 애노터이션을 지정
-
 + Presentation Layer : Controller 객체 동작
 + Service Layer : Business 메소드 동작
 + Repository Layer : DB 연결
 + 재사용, 유지보수 측면을 고려하여 Presentation 부분과 나머지의 설정을 따로 분리하는 것이 좋음
 
+
+
 <br>
+
+
 
 ---
 [HOME](https://github.com/tunaep5/Boostcourse/blob/master/README.md)

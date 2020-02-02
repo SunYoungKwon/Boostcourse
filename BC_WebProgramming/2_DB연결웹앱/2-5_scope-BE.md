@@ -11,7 +11,7 @@
 - jsp는 pageContext라는 내장객체가 존재함
 - forward 불가
 - 지역변수와 쓰임이 유사하나 EL표기법으로 사용할 때 유용
-```
+```java
 pageContext.setAttribute("name", value);
 pageContext.getAttribute("name");
 ```
@@ -19,7 +19,7 @@ pageContext.getAttribute("name");
 - HttpServletRequest 객체를 이용
 - JSP에서는 request 내장 객체를 이용
 - forward시 값을 유지시키는 데 사용
-```
+```java
 request.setAttribute("name", value);
 request.getAttribute("name");
 ```
@@ -30,7 +30,7 @@ request.getAttribute("name");
 - 웹 브라우저간의 탭들은 세션정보를 공유함
 - 브라우저가 종료되면 사라짐
 - 예) 로그인, 장바구니
-```
+```java
 session.setAttribute("name", value);
 session.getAttribute("name");
 ```
@@ -39,7 +39,7 @@ session.getAttribute("name");
 - JSP에서는 application 내장 객체를 이용
 - 어플리케이션 당 하나 객체를 가짐
 - 모든 클라이언트가 공통적으로 사용할 값을 저장
-```
+```jsp
 /* ApplicaionScope01.java (servlet) */
 ServletContext applicaion = getServletContext();
 application.setAttribute("name", value);
@@ -66,6 +66,11 @@ try {
 }
 %>
 ```
+
+
+
+<br>
+
 
 
 ---

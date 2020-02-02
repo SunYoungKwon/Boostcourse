@@ -14,7 +14,7 @@
 - DCL(Data Control Language) : 권한관리, 데이터보안, 무결성에 관여
    + GRANT : 사용자를 생성하고 권한을 부여
    + REVOKE : 사용자 권한 제거
-```
+```sql
 grant all privileges on DB이름.* to 계정이름 @'%' identified by '비밀번호';
 flush privileges;
 
@@ -41,7 +41,7 @@ quit;
 - WHERE Column LIKE '%A_'
 - concat() : 컬럼의 합성
 - 함수
-   ```
+   ```sql
    UCASE('seoul')             -> 'SEOUL'     // 대문자로
    UPPER('seoul')             -> 'SEOUL'
 
@@ -66,11 +66,11 @@ quit;
    SYSDATE()
    ```
 - CAST 형변
-   ```
+   ```sql
    CAST(expression AS type)
    ```
 - 그룹함수
-   ```
+   ```sql
    COUNT()           // NULL이 아닌 row의 수
    COUNT(*)          // row의 수
    AVG()
@@ -85,14 +85,14 @@ quit;
 
 #### INSERT
 새로운 데이터 삽입
-```
+```sql
 INSERT INTO TableName (Field1, Field2, ...)
 VALUES (Value of Field1, Value of Field2, ...);
 ```
 
 #### UPDATE
 데이터 수정
-```
+```sql
 UPDATE TableName
 SET Field1 = Value1, Field2 = Value2, ...
 WHERE 조건식;         // 필수는 아니지만 작성하지 않을 시 모든 컬럼이 수정됨
@@ -100,7 +100,7 @@ WHERE 조건식;         // 필수는 아니지만 작성하지 않을 시 모�
 
 #### DELETE
 데이터 삭제
-```
+```sql
 DELETE
 FROM TableName
 WHERE 조건식;
@@ -110,7 +110,7 @@ WHERE 조건식;
 #### [MySQL Datatype](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 #### CREATE
-```
+```sql
 CREATE TABLE TableName(
     FieldName1 DataType [NULL|NOT NULL] [AUTO_INCREMENT] [DEFAULT], 
     FieldName2 DataType [NULL|NOT NULL] [AUTO_INCREMENT] [DEFAULT],
@@ -122,6 +122,11 @@ CREATE TABLE TableName(
 #### ALTER
 
 #### DROP
+
+
+
+<br>
+
 
 
 ---

@@ -132,7 +132,7 @@
    - @Controller 애노테이션을 클래스위에 붙임
    - @RequesrMapping
       + Http요청과 이를 다루기 위한 Controller의 메소드를 연결하는 애노테이션
-      ```
+      ```java
       // Http Method와 연결
       @RequestMapping(value="/users", method=RequestMethod.POST)
       // Spring 4.3부터 아래 애노테이션 사용 가능
@@ -151,7 +151,11 @@
       @RequestMapping(method = RequestMethod.GET, produces = "application/json")
       ```
 
+
+
 <br>
+
+
 
 ---
 [HOME](https://github.com/tunaep5/Boostcourse/blob/master/README.md)

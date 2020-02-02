@@ -9,7 +9,7 @@
 
 ### pom.xml
 POM(Project Object Model)
-```
+```xml
 <project>
   <modelVersion>POM Model 버전</modelVersion>
   <groupId>프로젝트를 생성하는 조직의 고유 아이디. 일반적으로 도메인을 거꾸로 씀</groupId>
@@ -35,6 +35,10 @@ POM(Project Object Model)
 
 ### CoC(Convention over Configration)
 개발자가 내려야할 수 많은 결정들을 줄여주어, 단순성(Simplicity)을 확보하며, 유연성(Flexibility)을 잃어버리지 않도록 하기 위한 소프트웨어 디자인 패러다임  
+
+
+
+<br>
 
 
 

@@ -6,7 +6,7 @@
 - 서버가 request를 보낸 클라이언트에게 특정 url로 이동하라고 response를 보내는 것  
 - 과정 : server가 상태코드 302와 함께 Location Header에 담아 전송 -> client는 상태값이 302면 Location Header값으로 재요청 -> 브라우저 주소창이 전송받은 url로 변경
 - 클라이언트는 2번의 request를 보냄
-```
+```java
 response.sendRedirect("url");
 ```
 ### forward
@@ -14,7 +14,7 @@ response.sendRedirect("url");
 - 과정 : client가 servlet1에 request보냄 -> servlet1의 결과를 HttpServletRequest에 저장하여 servlet2에 전송(forward) -> servlet2가 처리한 결과를 HttpServletResponse로 client에게 전달
 - 클라이언트는 1번의 request를 보냄
 - url의 변화가 없음
-```
+```java
 // servlet1의 'service' method
 request.setAttribute("name", value);               // forward할 값을 저장
 RequestDispatcher rd = request.getRequestDiapatcher("/servlet2");
@@ -30,13 +30,13 @@ request.getAttribute("name");                      // servlet1에서 넘어온 �
 - servlet은 프로그램 로직 수행에 유리
 - jsp는 결과 출력에 유리
 - servlet에서 수행한 로직의 결과값을 jsp로 forward하여 출력
-```
+```java
 RequestDispatcher rd = request.getRequestDiapatcher("/result.jsp");
 RequestDispatcher.forward(request, response);      // forward
 ```
 ### EL
 - jsp내에서 사용하는 표기법
-```
+```jsp
 // java
 <%
 int result = (int)request.getAttribute("result");
@@ -48,6 +48,11 @@ ${result}
 
 * 위의 두 코드는 같은 동작을 함
 ```
+
+
+
+<br>
+
 
 
 ---

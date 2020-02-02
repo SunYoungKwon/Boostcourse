@@ -7,7 +7,7 @@
 - JSP는 결과를 출력하는데만 이용
 
 ### EL - 표현방법
-```
+```jsp
 ${exp}
 ```
 ### EL - 기본객체
@@ -25,7 +25,7 @@ ${exp}
 - initParam          // request.getInitParameter
 ```
 ### EL - 객체 접근 규칙
-```
+```jsp
 ${'exp1'.'exp2'}
 ```
 |exp1          |exp2       |result           |
@@ -64,7 +64,7 @@ ${'exp1'.'exp2'}
 !     // not
 ```
 #### empty연산자
-```
+```jsp
 ${empty 'value'}
 ```
 true를 반환하는 경우
@@ -74,11 +74,11 @@ true를 반환하는 경우
 - 빈 Map
 - 빈 Collection
 #### 비교선택연산자
-```
+```jsp
 ${(수식) ? trueValue : falseValue}
 ```
 ### EL 비활성화 하기
-```
+```jsp
 <%@ page isELIgnored = "true" %>
 ```
 
@@ -86,14 +86,14 @@ ${(수식) ? trueValue : falseValue}
 ### JSTL - 환경설정
 1. JSTL이용을 위한 라리브러리를 'WebContent/WEB-INF/lib/'에 추가하기 [라이브러리 다운로드](http://tomcat.apache.org/download-taglibs.cgi)
 2. JSP파일에 아래 코드 추가
-```
+```jsp
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 ```
 ### JSTL - 코어태그
 #### 변수지원
 - set
 - remove
-```
+```jsp
 <c:set var="name" scope="사용할 scope" value="value" />
 <c:remove var="name" scope="사용한 scope" />
 
@@ -104,7 +104,7 @@ ${(수식) ? trueValue : falseValue}
 ```
 #### 흐름제어
 - if(else는 없음)
-```
+```jsp
 <c:if test="조건">
    ...
 </c:if>
@@ -112,7 +112,7 @@ ${(수식) ? trueValue : falseValue}
 * 조건은 주로 EL태그로 쓰임
 ```
 - choose
-```
+```jsp
 <c:choose>
    <c:when test="조건1">
       ...
@@ -126,7 +126,7 @@ ${(수식) ? trueValue : falseValue}
 </c:choose>
 ```
 - forEach
-```
+```jsp
 <c:forEach var="var" items="collection" [begin="beginNum"] [end="endNum"]>
    ...
 </c:forEach>
@@ -135,7 +135,7 @@ ${(수식) ? trueValue : falseValue}
 ```
 - forTokens
 - import
-```
+```jsp
 <c:import url="URL" charEncoding="" var="" scope="">
    <c:param name="" value="" />
    ...
@@ -147,7 +147,7 @@ ${(수식) ? trueValue : falseValue}
 * <c:param>은 url에 연결할 때 전송할 파라미터를 입력. 필수X
 ```
 - redirect
-```
+```jsp
 <c:redirect url="URL">
    <c:param name="" value="" />
    ...
@@ -159,13 +159,18 @@ ${(수식) ? trueValue : falseValue}
 #### 기타태그
 - catch
 - out
-```
+```jsp
 <c:out value="" escapeXml="{true|false}" default="defaultValue" />
 
 * value는 JSPWriter에 출력할 값
 * excapeXml은 태그를 문자로 인식하게 함. 기본값은 true
 * default는 value가 존재하지 않을 때 사용될 값
 ```
+
+
+
+<br>
+
 
 
 ---

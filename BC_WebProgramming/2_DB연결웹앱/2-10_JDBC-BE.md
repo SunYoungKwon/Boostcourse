@@ -6,7 +6,7 @@
 자바를 이용한 데이터베이스 접속과 SQL문장의 실행과 실행 결과로 얻어진 데이터의 핸들링을 제공하는 방법과 절차에 대한 규약
 
 #### JDBC 드라이버 설치
-```
+```xml
 <dependency>
   <groupId>mysql</groupId>
   <artifactId>mysql-connector-java</artifactId>
@@ -22,6 +22,10 @@
 5. SQL문에 결과물이 있다면 ResultSet 객체를 생성
 6. 모든 객체를 close(열었던 순서 반대로 닫기)
 * Connection, Statement는 인터페이스
+
+
+
+<br>
 
 
 

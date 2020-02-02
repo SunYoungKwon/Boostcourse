@@ -4,14 +4,14 @@
 ### 변수
   - var, let, const
 ### || 'or연산자'
-```
+```javascript
 var name = "Kim";
 var myName = name || "default";     // name값이 있으면 name으로 아니면 default로
 
 -> myName은 "Kim"
 ```
 ### 삼항연산자
-```
+```javascript
 var data = 5;
 var result = (data > 10) ? "yes" : "no";      // 조건 ? true : false
 
@@ -19,7 +19,7 @@ var result = (data > 10) ? "yes" : "no";      // 조건 ? true : false
 ```
 ### 비교연산자
   ==보다 ===(타입까지 비교)를 사용하기
-```
+```javascript
 0 == "0";     // -> true
 0 == false;   // -> true
 0 === "0";    // -> true
@@ -28,13 +28,13 @@ var result = (data > 10) ? "yes" : "no";      // 조건 ? true : false
   - toStrig.call을 이용하여 결과값 매칭
   - 문자나 숫자는 typeof이용 가능
 ### 문자열 method
-```
+```javascript
 "ab:cd".split(":");           // -> ["ab", "cd"]
 "ab:cd".repalce(":", "$");    // -> "ab$cd"
 "   abcde   ".trim();         // -> "abcde"
 ```
 ### 함수표현식 vs 함수선언문
-```
+```javascript
 // 함수표현식
 var a = function() {
   return value;
@@ -50,7 +50,7 @@ function fun() {
 
 Javascript에서 모든 변수 선언은 위로 끌어올려진다. But 끌어올려지는 것은 선언 뿐! 할당은 아님!
 함수선언문은 위치에 상관없이 전체코드에서 유효함
-```
+```javascript
 // 예제 1
 function getX() {
   console.log(x);     // undefined
@@ -71,7 +71,7 @@ functoin getX() {
 ### 함수 arguments 속성
 arguments는 객체이며, 배열 메서드를 사용할 수 없다.
 arguments를 수정하려 하지 말 것
-```
+```javascript
 function a() {
   console.log(arguments);
 }
@@ -80,7 +80,7 @@ a(1, 2, 3);
 -> {'0':1, '1':2, '2':3}
 ```
 ### arrow function
-```
+```javascript
 // 예제 1
 function getName(name) {
   return "Kim" + name;
@@ -91,6 +91,11 @@ var getName = (name) => "Kim" + name;
 
 -> 예제1과 예제2는 같다!
 ```
+
+
+
+<br>
+
 
 
 ---

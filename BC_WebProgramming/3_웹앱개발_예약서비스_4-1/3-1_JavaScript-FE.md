@@ -3,14 +3,14 @@
 ## 1. JavaScript - FE
 
 ### [배열](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
-```
+```javascript
 var a = [];                              // 배열선언
 var b = [1, "hello", null, true, []];    // 초기화와 함께 배열 선언
 ```
 - 배열안에는 모든 타입(함수, 배열, 오브젝트 등...)이 다 들어갈 수 있다
 
 #### 배열의 유용한 메서드들
-```
+```javascript
 console.log(a.length);  // 배열의 길이 출력
 
 a.unshift(5);        // 맨 앞에 추가
@@ -39,7 +39,7 @@ a = [...b, 2, 3];             // a = b.concat[2, 3];과 같다
 ### 배열의 탐색
 
 #### [forEach](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-```
+```javascript
 var a = [1, 2, 3];
 
 a.forEach(function(v, i, o) {
@@ -55,7 +55,7 @@ a.forEach(function(v, i, o) {
 
 #### [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - 각각의 요소에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열 반환
-```
+```javascript
 var origin = [1, 2, 3];
 
 var mapped1 = origin.map(function(v) {
@@ -71,7 +71,7 @@ console.log(origin, mapped1, mapped2);
 
 #### [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - 주어진 조건에 맞는 요소만 모아 새로운 배열로 반환
-```
+```javascript
 var origin = [3, 7, 2, 8, 6];
 
 var result1 = origin.filter(function(v) {
@@ -87,7 +87,7 @@ console.log(origin, result1, result2);
 </br>
 
 ### 객체
-```
+```javascript
 var obj = {key : "value"};    // 객체의 선언
 
 console.log(obj.key);         // key에 해당하는 value 가져오기
@@ -99,7 +99,7 @@ console.log(obj["key"]);      // key에 해당하는 value 가져오기
 
 ### 객체의 탐색
 #### for-in문
-```
+```javascript
 var obj = {name : "Kim", age : 20};
 
 for(key in obj) {
@@ -112,7 +112,7 @@ for(key in obj) {
 #### keys
 - 오브젝트의 key값을 배열로 반환
 - forEach와 함께 많이 사용
-```
+```javascript
 var obj = {name : "Kim", age : 20};
 
 console.log(Object.keys(obj));
@@ -124,6 +124,10 @@ Object.keys(obj).forEach(function(v) {
 > "Kim"
   20
 ```
+
+
+
+<br>
 
 
 

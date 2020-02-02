@@ -17,7 +17,7 @@
 - [requestAnimationframe](https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame)
 - Animation API
 #### setInterval
-   ```
+   ```javascript
    const interval = window.setInterval(()=> {
      console.log('현재시각은', new Date());
    },1000/60);
@@ -27,7 +27,7 @@
    + 정해진 시간에 함수가 호출된다고 보장할 수 없음
    + 일반적으로 애니메이션 구현에 잘 이용되지 않음
 #### setTimeout
-   ```
+   ```javascript
    let count = 0;
 
    function animate() {   
@@ -44,7 +44,7 @@
    + 재귀를 통해 애니메이션 구현 가능
    + 제때 콜백함수가 실행되지 않을 수 있음
 #### requestAnimationframe
-   ```
+   ```javascript
    var count = 0;
    var el=document.querySelector(".outside");
    el.style.left = "0px";
@@ -65,7 +65,7 @@
 ### CSS3로 Animation구현
 - transition
 - transform
-```
+```javascript
 <style>
    .animation {
       position: relative;
@@ -101,7 +101,7 @@
 - 생성자로 사용 불가
 
 ### (참고) vendor prefix
-```
+```javascript
 <style>
     .button {
         background: red;          <!-- gradient 속성을 지원하지 않는 모든 브라우저를 위한 코드 -->
@@ -117,7 +117,11 @@
 - 해당 기능이 포함되지 않은 이전 버전의 웹 브라우저에서 그 기능을 사용할 수 있게 함
 - CSS 표준 문법 코드는 벤더 프리픽스로 작성된 코드가 모두 나오고 난 후에 나와야함
 
+
+
 <br>
+
+
 
 ---
 [HOME](https://github.com/tunaep5/Boostcourse/blob/master/README.md)

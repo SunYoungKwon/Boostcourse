@@ -6,7 +6,7 @@
 - element.
 
 ### 유용한 DOM Element Object
-```
+```html
 <p><strong id="hi">Hello</strong>, World!</p>
 
 <script>
@@ -45,7 +45,7 @@
 ### [DOM APIs 실습](https://www.edwith.org/boostcourse-web/lecture/20124/)
 
 #### 실습1
-```
+```javascript
 var node = document.createElement("LI");
 var textNode = document.createTextNode("melon");
 
@@ -60,11 +60,11 @@ list.removeChild(strawberry.nextSibling);   // 삭제
 ```
 
 #### 실습2
-```
+```javascript
 var node = document.createElement("LI");
 var textNode = document.createTextNode("melon");
 
-node.appendChild(textNode);                 // <li>melon</li>
+node.appendChild(textNode);                    // <li>melon</li>
 
 var list = document.querySelector("ul");
 
@@ -72,13 +72,13 @@ list.insertBefore(node, list.childNodes[4]);   // 4번 자식노드 앞에 node 
 ```
 
 #### 실습3
-```
-var orange = document.querySelector("li:nth-child(2)");   // 두번째 <li>
+```javascript
+var orange = document.querySelector("li:nth-child(2)");    // 두번째 <li>
 orange.insertAdjacentHTML("afterend", "<li>melon</li>");   // 해당 위치 뒤에 node 삽입
 ```
 
 #### 실습4
-```
+```javascript
 var list = document.querySelector("ul");
 var apple = list.childNodes[1];
 var strawberry = list.lastElementChild;
@@ -87,7 +87,7 @@ strawberry.insertAdjacentElement("beforebegin", apple);
 ```
 
 #### 실습5
-```
+```javascript
 var reds = document.querySelectorAll(".red");
 var parent = document.querySelector("ul");
 
@@ -99,7 +99,8 @@ for(var i = 0; i < reds.length; i++) {
 #### 실습6
 [Array.from](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 [Element.closest()](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest)
-```
+
+```javascript
 var blueNodes = document.querySelectorAll("section .blue");
 
 Array.from(blueNodes).forEach(function(v) {
@@ -112,6 +113,9 @@ Array.from(blueNodes).forEach(function(v) {
 ### 폴리필(polyfill)
 특정 기능이 지원되지 않는 브라우저를 위해 사용할 수 있는 코드 조각이나 플러그인
 
+
+
+<br>
 
 
 

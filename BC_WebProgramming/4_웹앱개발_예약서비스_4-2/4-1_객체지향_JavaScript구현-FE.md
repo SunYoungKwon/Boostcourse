@@ -6,8 +6,8 @@
 
 ```javascript
 var employee = [{name : "Kim", age : 28, position : "Programmer"},
-          		{name : "Lee", age : 35, position : "Designer"},
-         	    {name : "Park", age : 40, position : "CEO"}];
+                {name : "Lee", age : 35, position : "Designer"},
+                {name : "Park", age : 40, position : "CEO"}];
 ```
 
 #### forEach

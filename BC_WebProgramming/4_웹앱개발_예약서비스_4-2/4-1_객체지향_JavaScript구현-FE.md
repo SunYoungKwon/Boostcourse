@@ -67,6 +67,57 @@ console.log(totalAge);
 
 
 
+### 객체리터럴
+
+```javascript
+// 객체 리터럴로 객체 만들기
+var todo = {
+    todos:["자바스크립트 공부하기"],
+    addTodo: function(newTodo) {
+       this.todos.push(newTodo);
+    }, 
+    showTodos: function() {
+        this.todos.forEach(v => console.log(v));
+    }
+};
+```
+
+
+
+### this
+
+> JavaScript에서 전역 스크립트나 함수가 실행될 때 실행문맥(Excution Context)이 생성된다. (실제 실행은 브라우저 내의 stack에 올라가서 실행됨)  모든 context에는 참조하고 있는 객체(thidBinding)가 존재하며, 이를 알기위새 this를 사용할 수 있다.
+
+- 객체 내에서 **this**는 그 객체 자신을 가리킴
+- **bind()**, **call()**, **apply()**를 사용하면 달라질 수 있음
+- (참고) ES6에서 객체 내 메서드에 'function'키워드 생략 가능
+
+```javascript
+function getThis() {
+    return this;
+}
+
+getThis();		// Window
+new getThis();	// getThis{} -> Object
+```
+
+#### [call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+
+- apply()와 유사하나 call()은 **인수 목록**을 apply()는 **인수 배열 하나**를 받는다.
+
+```javascript
+var hi = {
+    todos: ["Hi!", "Hello!"]
+};
+
+todo.showTodos.call(hi);	// todo의 showTodos메소드를 hi를 참조하여 실행
+
+> Hi!
+  Hello!
+```
+
+
+
 <br>
 
 ---

@@ -101,7 +101,7 @@ getThis();		// Window
 new getThis();	// getThis{} -> Object
 ```
 
-#### [call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
+### [call()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 
 - apply()와 유사하나 call()은 **인수 목록**을 apply()는 **인수 배열 하나**를 받는다.
 
@@ -116,7 +116,54 @@ todo.showTodos.call(hi);	// todo의 showTodos메소드를 hi를 참조하여 실
   Hello!
 ```
 
+### [bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
+- 새로운 함수를 반환하는 함수
+- this의 값을 지정
+
+```javascript
+var user = {
+    name : "Kim",
+    age : 25,
+    showUserInfo: function() {
+        setTimeout(function() {
+            console.log(this.name + "님은 " + this.age + "세 입니다.");
+        }, 1000);
+    }
+};
+user.showUserInfo(); // 님은 undefined세 입니다.
+```
+
+```javascript
+var user = {
+    name : "Kim",
+    age : 25,
+    showUserInfo: function() {
+        setTimeout(function() {
+            console.log(this.name + "님은 " + this.age + "세 입니다.");
+        }.bind(this), 1000);
+    }
+};
+user.showUserInfo(); // Kim님은 25세 입니다.
+```
+
+
+
+```javascript
+this.x = 9;
+var module = {
+  x: 81,
+  getX: function() { return this.x; }
+};
+
+module.getX(); // 81
+
+var retrieveX = module.getX;
+retrieveX();	// 9
+
+var boundGetX = retrieveX.bind(module);
+boundGetX();	// 81
+```
 
 <br>
 

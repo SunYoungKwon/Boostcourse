@@ -26,8 +26,8 @@
   11. [WEB API - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-11_WEB_API-BE.md)
 
 #### 프로젝트
-  - BE_PJT 2-1. TO-DO LIST 구현하기
-  - FE_PJT 2-2. TO-DO LIST 구현하기
+  - BE_PJT 2-1. TO-DO LIST 구현하기:heavy_check_mark:
+  - FE_PJT 2-2. TO-DO LIST 구현하기:heavy_check_mark:
 
 
 ### 3. 웹 앱 개발:예약서비스 1/4 :heavy_check_mark:

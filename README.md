@@ -51,8 +51,8 @@
 
 
 ### 4. 웹 앱 개발:예약서비스 2/4
-  1. [객체지향 JavaScript구현 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-1_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_JavaScript%EA%B5%AC%ED%98%84-FE.md)
-  2. [라이브러리 활용과 클린코드 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-2_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC_%ED%99%9C%EC%9A%A9%EA%B3%BC_%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-FE.md)
+  1. [객체지향 JavaScript구현 - FE](./BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-1_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_JavaScript%EA%B5%AC%ED%98%84-FE.md)
+  2. [라이브러리 활용과 클린코드 - FE](./BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-2_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC_%ED%99%9C%EC%9A%A9%EA%B3%BC_%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-FE.md)
 
 ### 5. 웹 앱 개발:예약서비스 3/4
   1. UI Component module - FE

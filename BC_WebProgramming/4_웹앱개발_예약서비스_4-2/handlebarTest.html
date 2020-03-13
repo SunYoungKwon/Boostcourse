@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <style>
+      li {
+        list-style: none;
+        padding: 3%;
+        border-top: 1px solid #ddd;
+      }
+      .content{
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Template using handlebar</h1>
+
+    <section id="show"></section>
+
+    <script type="myTemplate" id="listTemplate">
+      <li>
+        <div>게시자 : {{name}}</div>
+        <div class="content">{{content}}</div>
+
+        {{#likes like}}
+          {{like}}
+        {{/likes}}
+
+        <h4>댓글목록</h4>
+        {{#if comment}}
+          {{#each comment}}
+            <div>{{@index}}번째 댓글 : {{this}}</div>
+          {{/each}}
+        {{else}}
+          <div>첫 번째 댓글을 달아주세요!</div>
+        {{/if}}
+      </li>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script>
+
+    <script>
+      var data = [
+        {"id" : 1, "name" : "홍길동", "content" : "새로운 글!", "like" : 5, "comment" : ["반가워요~!", "잘 보고 갑니다"]},
+        {"id" : 2, "name" : "김철수", "content" : "두 번째 글!", "like" : 2, "comment" : []},
+        {"id" : 3, "name" : "김영희", "content" : "세 번째 글!", "like" : 0, "comment" : ["안녕하세요!", "잘 보고 갑니다~"]}
+      ];
+
+      Handlebars.registerHelper("likes", function(like) {
+        if(like > 4) {
+          return "<span>좋아요가 " + like + "개 이상이네요! 와우~</span>";
+        } else if(like < 1) {
+          return "아직 좋아요가 없어요ㅠㅠ";
+        } else {
+          return like;
+        }
+      });
+
+      var template = document.querySelector("#listTemplate").innerText;
+
+      // pre-compile 값이 들어오면 바로 작업을 할 수 있게 변수를 기억해 둠
+      var bindTemplate = Handlebars.compile(template);  // bindTemplate은 메서드
+
+      var resultHTML = data.reduce(function(prev, next) {
+        return prev + bindTemplate(next);
+      }, "");
+
+      show.innerHTML = resultHTML;
+
+    </script>
+  </body>
+</html>

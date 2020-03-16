@@ -4,15 +4,14 @@
 
 
 ## :closed_book: Web Programming
-### 1. 웹 프로그래밍 기초 :heavy_check_mark:
-#### 프로젝트
+### 1. 웹 프로그래밍 기초
+#### 프로젝트 :heavy_check_mark:
   - [(참고) Java Naming](https://google.github.io/styleguide/javaguide.html#s5-naming)
   - BE_PJT 1-1. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
   - FE_PJT 1-2. 나를 소개하는 홈페이지 만들기 :heavy_check_mark:
 
-### 2. DB연결 웹 앱 :heavy_check_mark:
-
-#### 내용정리
+### 2. DB연결 웹 앱
+#### 내용정리 :heavy_check_mark:
   1. [Javascript - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-1_JavaScript-FE.md)
   2. [WEB UI 개발 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-2_WEB_UI_%EA%B0%9C%EB%B0%9C_FE.md)
   3. [JSP - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-3_JSP-BE.md)
@@ -25,14 +24,13 @@
   10. [JDBC - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-10_JDBC-BE.md)
   11. [WEB API - BE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/2_DB%EC%97%B0%EA%B2%B0%EC%9B%B9%EC%95%B1/2-11_WEB_API-BE.md)
 
-#### 프로젝트
+#### 프로젝트 :heavy_check_mark:
   - BE_PJT 2-1. TO-DO LIST 구현하기:heavy_check_mark:
   - FE_PJT 2-2. TO-DO LIST 구현하기:heavy_check_mark:
 
 
-### 3. 웹 앱 개발:예약서비스 1/4 :heavy_check_mark:
-
-#### 내용정리
+### 3. 웹 앱 개발:예약서비스 1/4
+#### 내용정리 :heavy_check_mark:
   1. [JavaScript - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-1_JavaScript-FE.md)
   2. [DOM API활용 - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-2_DOM_API-FE.md)
   3. [Ajax - FE](https://github.com/tunaep5/Boostcourse/blob/master/BC_WebProgramming/3_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-1/3-3_Ajax-FE.md)
@@ -51,10 +49,16 @@
 
 
 ### 4. 웹 앱 개발:예약서비스 2/4
+#### 내용정리 :heavy_check_mark:
   1. [객체지향 JavaScript구현 - FE](./BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-1_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_JavaScript%EA%B5%AC%ED%98%84-FE.md)
   2. [라이브러리 활용과 클린코드 - FE](./BC_WebProgramming/4_%EC%9B%B9%EC%95%B1%EA%B0%9C%EB%B0%9C_%EC%98%88%EC%95%BD%EC%84%9C%EB%B9%84%EC%8A%A4_4-2/4-2_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC_%ED%99%9C%EC%9A%A9%EA%B3%BC_%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-FE.md)
 
+#### 프로젝트
+  - BE_PJT 4-1. 예약: 상세페이지
+  - FE_PJT 4-2. 예약: 상세페이지
+
 ### 5. 웹 앱 개발:예약서비스 3/4
+#### 내용정리
   1. UI Component module - FE
   2. JavaScript Regular expression - FE
   3. form 데이터 보내기 - FE
@@ -63,16 +67,25 @@
   6. 인터셉터 - BE
   7. 아규먼트 리졸버 - BE
 
+#### 프로젝트
+  - BE_PJT 5-1. 예약: 예약하기
+  - FE_PJT 5-2. 예약: 예약하기
+
 ### 6. 웹 앱 개발:예약서비스 4/4
+#### 내용정리 
   1. 파일 업로드 - FE
   2. 로깅 - BE
   3. 파일 업로드 & 다운로드 - BE
-
-
+  
+#### 프로젝트
+  - BE_PJT 6-1. 예약: 한줄평
+  - FE_PJT 6-2. 예약: 한줄평
+  
+### 참고
+  - [프론트엔드 개발자 커리큘럼](https://github.com/crongro/front-end-curriculum)
+  - [백엔드 개발자 커리큘럼](https://d2.naver.com/news/3435170)
 
 <br>
-
-
 
 ## :orange_book: Web UI Development
 ### 1. HTML&CSS 기초

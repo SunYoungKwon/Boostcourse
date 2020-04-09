@@ -86,7 +86,7 @@ var todo = {
 
 ### this
 
-> JavaScript에서 전역 스크립트나 함수가 실행될 때 실행문맥(Excution Context)이 생성된다. (실제 실행은 브라우저 내의 stack에 올라가서 실행됨)  모든 context에는 참조하고 있는 객체(thidBinding)가 존재하며, 이를 알기위새 this를 사용할 수 있다.
+> JavaScript에서 전역 스크립트나 함수가 실행될 때 실행문맥(Excution Context)이 생성된다. (실제 실행은 브라우저 내의 stack에 올라가서 실행됨)  모든 context에는 참조하고 있는 객체(thidBinding)가 존재하며, 이를 알기위해 this를 사용할 수 있다.
 
 - 객체 내에서 **this**는 그 객체 자신을 가리킴
 - **bind()**, **call()**, **apply()**를 사용하면 달라질 수 있음
